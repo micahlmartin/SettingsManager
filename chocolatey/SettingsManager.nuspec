@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SettingsManager</id>
+    <title>SettingsManager</title>
+    <version>__REPLACE__</version>
+    <authors>__REPLACE__</authors>
+    <owners>micahlmartin</owners>
+    <summary>SettingsManager</summary>
+    <description>SettingsManager</description>
+    <projectUrl>__REPLACE__</projectUrl>
+    <tags>SettingsManager admin</tags>
+    <copyright></copyright>
+    <licenseUrl>__REPLACE__</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl></iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+</package>

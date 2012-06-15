@@ -1,0 +1,8 @@
+﻿<Window x:Class="SettingsManager.Views.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Settings Manager" Height="330" Width="457">
+    <Grid>
+        
+    </Grid>
+</Window>

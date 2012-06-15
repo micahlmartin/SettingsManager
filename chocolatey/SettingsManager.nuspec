@@ -2,16 +2,16 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>SettingsManager</id>
-    <title>SettingsManager</title>
-    <version>__REPLACE__</version>
-    <authors>__REPLACE__</authors>
+    <title>Settings Manager</title>
+    <version>0.0.1</version>
+    <authors>micahlmartin</authors>
     <owners>micahlmartin</owners>
-    <summary>SettingsManager</summary>
-    <description>SettingsManager</description>
-    <projectUrl>__REPLACE__</projectUrl>
-    <tags>SettingsManager admin</tags>
+    <summary>A utility for managing machine.config settings</summary>
+    <description>A utility for managing machine.config settings</description>
+    <projectUrl>https://github.com/micahlmartin/SettingsManager</projectUrl>
+    <tags>settings admin utilities configuration-management</tags>
     <copyright></copyright>
-    <licenseUrl>__REPLACE__</licenseUrl>
+    <licenseUrl>https://github.com/micahlmartin/SettingsManager</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<iconUrl></iconUrl>-->
     <!--<dependencies>

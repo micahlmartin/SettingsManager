@@ -10,3 +10,4 @@ Upgradelog*
 _Upgrade*
 TestResult.xml
 TestResults
+*.nupkg

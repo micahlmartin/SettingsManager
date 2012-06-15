@@ -16,8 +16,8 @@
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
-    <IsWebBootstrapper>true</IsWebBootstrapper>
-    <PublishUrl>\\GREATWHITE\Software\SettingsManager\</PublishUrl>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -27,7 +27,6 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>http://greatwhite:8888/SettingsManager/</InstallUrl>
     <TargetCulture>en</TargetCulture>
     <ProductName>Settings Manager</ProductName>
     <PublisherName>BoomTown</PublisherName>
@@ -127,7 +126,13 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>SettingsManager.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Data.ConnectionUI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=f4ca07f51760da93, processorArchitecture=MSIL">
@@ -295,7 +300,7 @@
     </EmbeddedResource>
     <None Include="app.config" />
     <AppDesigner Include="Properties\" />
-    <None Include="SettingsManager_TemporaryKey.pfx" />
+    <None Include="SettingsManager.snk" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Import.png">
